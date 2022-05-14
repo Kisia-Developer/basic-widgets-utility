@@ -7,7 +7,7 @@ class ButtonsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Buttons'),
+        title: const Text('Buttons'),
       ),
       body: Center(
         child: Column(
@@ -123,7 +123,7 @@ class ButtonsPage extends StatelessWidget {
                 child: const Text('グラデーション'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             // アイコンボタン
