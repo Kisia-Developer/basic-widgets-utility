@@ -1,6 +1,7 @@
 import 'package:basic_widgets_utility/pages/buttons_page.dart';
 import 'package:basic_widgets_utility/pages/decoration_page.dart';
 import 'package:basic_widgets_utility/pages/dialog_page.dart';
+import 'package:basic_widgets_utility/pages/gesture_detector.dart';
 import 'package:flutter/material.dart';
 
 class TopPage extends StatelessWidget {
@@ -106,11 +107,11 @@ class TopPage extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                // onTap: () => Navigator.of(context).push(
-                //   MaterialPageRoute(
-                //     builder: (context) => const DecorationPage(),
-                //   ),
-                // ),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const GestureDetectorPage(),
+                  ),
+                ),
                 child: SizedBox(
                   height: 100,
                   width: MediaQuery.of(context).size.width * 0.4,
@@ -121,11 +122,12 @@ class TopPage extends StatelessWidget {
                     ),
                     child: const Center(
                       child: Text(
-                        'to be next...',
+                        'Gesture\nDetector',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
