@@ -59,18 +59,6 @@ class DecorationPage extends StatelessWidget {
             const SizedBox(
               height: 15,
             ),
-            // BorderRadius without Colors
-            Container(
-              width: 300,
-              height: 90,
-              decoration: BoxDecoration(
-                color: Colors.blueAccent,
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-            ),
-            const SizedBox(
-              height: 15,
-            ),
             // BoxShadow
             Container(
               height: 90,
