@@ -1,9 +1,3 @@
-// 外側を押しても消える
-// cancelを押さないと消えない
-// ios -> cupertinoAlertDialog
-// customDialog
-// dialogではないが、bottomSheet
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
